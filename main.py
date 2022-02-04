@@ -241,9 +241,8 @@ def main():
 
         else:
             # Exit
-            if userchoice == 0:
-                return
-
+            if userchoice == 0:return
+                
             # Search
             elif userchoice == 1:
                 system('cls')
