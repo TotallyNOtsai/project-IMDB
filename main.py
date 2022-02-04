@@ -129,7 +129,7 @@ Directors: {results['directors']}\nStars: {results['stars']}\n\nPlot:\n{results[
                 return
 
 # Print Top 250
-def top205_info(item):
+def top250_info(item):
     slowprint(f"{item['rank' ]}.{item['fullTitle']}\nId: {item['id']}\nIMDB Rating: {item['imDbRating']}",0.5)
 
 # Print Weekend Boxoffice 
@@ -153,7 +153,7 @@ def rank_info(data, type):
     for item in data['items']:
         if item['rank'] == rank:
             if type == 1 or type == 2:
-                top205_info(item)
+                top250_info(item)
 
             if type == 3:
                 weekendboxoffice_info(item)
