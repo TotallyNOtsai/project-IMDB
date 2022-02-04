@@ -1,3 +1,3 @@
 # project-IMDB
 
-api beginner python project 
+beginner python api project 
